@@ -1,0 +1,16 @@
+@AzureServiceBus_HostAddress = http://localhost:5250
+
+GET {{AzureServiceBus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{AzureServiceBus_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+	"id": 101,
+	"name": "Test product"
+}
+
+###

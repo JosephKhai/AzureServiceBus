@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AzureServiceBus/AzureServiceBus.csproj" />
+  <Project Path="AzureServiceBusConsumer/AzureServiceBusConsumer.csproj" />
+</Solution>
